@@ -70,7 +70,7 @@ button {
 }
 
 .item:hover {
-  border: 2px solid #576c31;
+  border-bottom: 2px solid #576c31;
 }
 
 h2 h4 {
