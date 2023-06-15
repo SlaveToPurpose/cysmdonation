@@ -1,0 +1,100 @@
+div {
+  margin-top: 15px;
+}
+
+.header {
+  display: block;
+}
+
+body {
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  border-radius: 5px;
+  padding-left: 10%;
+  height: 400px;
+}
+
+
+.header {
+  color: #576c31;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.vision {
+  color: black;
+  font-size: 140%;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+button {
+  color: #0f1419;
+  background: #a2b248;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #a2b248;
+}
+
+.nav-wrapper2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.item {
+  text-align: center;
+  border: 1px solid #a2b248;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.item:hover {
+  border: 2px solid #576c31;
+}
+
+h2 h4 {
+  font-size: 140%;
+}
+
+@media only screen and (max-width: 769px) {
+  .mainprog {
+    flex-direction: column;
+  }
+
+  .mainprog {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 643px) {
+  .mainprog .heading {
+    width: 100%;
+  }
+
+  .mainprog .header h1 h2 {
+    font-size: 1em;
+
+  }
+
+}
